@@ -1,0 +1,18 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.28);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 46vw;
+}
+
+
+.navBar-item {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.9rem;
+}

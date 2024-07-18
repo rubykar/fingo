@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 20px 0px 100px 100px;
+    /* background: radial-gradient(ellipse at 3% 10%, rgba(1, 87, 77, 0.7) 0%, rgba(0, 228, 201, 1) 29%, rgba(0, 228, 201, 1) 87%, rgba(1, 87, 77, 0.7) 100%,rgba(1, 87, 77, 0.7) 60%); */
+    background: radial-gradient(rgba(0, 228, 201, 1) 68%, rgba(1, 87, 77, 0.7) 100%);
+}
+
+
+.rupee {
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    opacity: 0.1;
+    font-size: 700px;
+    font-weight: 400;
+    z-index: -0.9;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:17vw;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+.landingpage-image {
+    z-index: 2;
+}
+
+.motto{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #FFF;
+    line-height: 1.2;
+}
