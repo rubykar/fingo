@@ -1,0 +1,87 @@
+.background {
+    display: flex;
+}
+
+.background.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.background.left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rupee {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    opacity: 0.15;
+    font-size: 700px;
+    font-weight: 400;
+    z-index: -0.9;
+}
+
+.image {
+    width: 70vw;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background: radial-gradient(rgba(0, 228, 201, 1) 68%, rgba(1, 87, 77, 0.7) 110%);
+
+}
+
+.signupcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #FFF;
+    width: 70vw;
+    height: 100vh;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.motto {
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 8vh;
+    font-size: 74px;
+    font-weight: 800;
+    line-height: 82px;
+    text-align: left;
+    color: #FFF;
+    z-index: 1;
+}
+
+
+.button {
+    background-color: #00E4C9;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 18vw;
+}
+
+.arrow {
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 800;
+    color: #000;
+}
