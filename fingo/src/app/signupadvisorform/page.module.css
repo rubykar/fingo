@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    background: radial-gradient(rgba(0, 228, 201, 1) 68%, rgba(1, 87, 77, 0.7) 110%);
+
+}
+
+.signupcard {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 10px;
+    background-color: #FFF;
+    width: 44vw;
+    height: 100vh;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.InputRows {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.formcontainer {
+    position: absolute;
+    display: flex;
+    right: 0%;
+    flex-grow: 1;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    justify-content: space-between;
+}
+
+.inputStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    width: 12vw;
+}
+
+.inputRows {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.inputCertificate {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    width: 26.5vw;
+}
